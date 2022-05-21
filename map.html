@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Example</title>
+</head>
+<body>
+<h1>Some Book</h1>
+    <H3>Title</H3>
+    <p>
+        <img src="chapter%201.jpg" alt="Load" width="460" height="109"
+        usemap="#karta" style="border: aqua 2px solid">
+        <map name="karta">
+            <area shape="rect" coords="0,0,230,109" href="table1.html" target="chapter"
+                  alt="chapter 1" title="Chapter 1">
+            <area shape="rect" coords="230,0,460,109" href="table2.html" target="chapter"
+                  alt="chapter 2" title="Chapter 2">
+        </map>
+    </p>
+    <iframe src="table2.html" name="chapter" width="1060" height="300"></iframe>
+</body>
+</html>
